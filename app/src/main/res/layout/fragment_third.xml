@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment"
+    android:background="@color/rosa3">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:id="@+id/txtUm"
+        android:text="3"
+        android:textSize="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rosa4"/>
+
+    <Button
+        android:id="@+id/btnQuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="@string/btnCinco"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/azul"/>
+
+</FrameLayout>
